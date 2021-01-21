@@ -1,1 +1,65 @@
-
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    margin: auto;
+    margin-top: 80px;
+    width: 400px;
+    height: 600px;
+    background-color: hsla(180, 100%, 50%, 0.616);
+    box-shadow: 10px 10px hsla(180, 100%, 27%, 0.616);
+}
+#headingText{
+    color:hsl(180, 100%, 27%);
+    font-size: 30px;
+    margin-left: 95px;
+    margin-right: 90px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.calcButton{
+    width: 80%;
+    margin-left: 40px;
+    background-color: hsl(180, 100%, 27%);
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    color: white;
+    border: none;
+    font-size: 30px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+.calcButton:hover{
+    background-color: hsla(180, 100%, 27%, 0.322);
+    color:hsl(180, 100%, 27%)
+}
+input{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 80%;
+    font-size: 1.25rem;
+    border: 3px solid hsl(180, 100%, 27%);;
+    border-radius: 5px;
+}
+.incorrect{
+    border: 3px solid red;
+}
+#answer{
+    margin-left: 90px;
+    margin-right: 80px;
+    margin-top: 10px;
+    padding: 5px;
+    height: 20px;
+    max-width: 50%;
+    font-size: 1.25rem;
+    border: 3px solid hsl(180, 100%, 27%);
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
